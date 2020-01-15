@@ -48,9 +48,16 @@ li a:hover {
     box-shadow: none;
 }
 
-#signin {
+li button#signin {
     background-color: rgb(69, 133, 242);
+}
+
+li button#signin a {
     color: white;
+}
+
+li button#signin a:hover {
+    text-decoration: none;
 }
 
 #center-items {
