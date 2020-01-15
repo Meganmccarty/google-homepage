@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#center-items {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 275px;
+    margin: 15px;
+}
+
+#search {
+    width: 550px;
+    height: 30px;
+    margin: 15px;
+    border: 1px solid rgb(220, 222, 226);
+    border-radius: 30px;
+}
+
+#search:hover {
+    box-shadow: 2px 2px 5px rgb(220, 222, 226);
+}
+
+#buttons {
+    margin: 15px;
+    flex-direction: row;
+}
+
+button {
+    background-color: rgb(245, 245, 245);
+    color: rgb(95, 91, 104);
+    font-size: 14px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid gray;
+}
