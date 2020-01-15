@@ -14,28 +14,38 @@ li {
 
 .left {
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
     justify-content: center;
-    padding: 8px;
+    padding: 0px;
 }
 
 .right {
     float: right;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
     justify-content: center;
-    padding: 8px;
+    padding: 0px;
 }
 
 li a {
     text-decoration: none;
-    color: black;
+    color: rgb(95, 91, 104);
     font-size: 14.5px;
 }
 
 li a:hover {
     text-decoration: underline;
+}
+
+.pseudo-button {
+    background-color: white;
+    border: none;
+}
+
+.pseudo-button:hover {
+    border: none;
+    box-shadow: none;
 }
 
 #signin {
@@ -97,4 +107,10 @@ footer {
     border: 1px solid rgb(230, 230, 230);
     background-color: rgb(245, 245, 245);
     color: rgb(95, 91, 104);
+}
+
+footer ul li.left, footer ul li.right {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
 }
