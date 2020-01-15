@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
 }
 
 ul {
@@ -14,22 +14,24 @@ li {
 
 .left {
     float: left;
-    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    justify-content: center;
+    padding: 8px;
 }
 
 .right {
     float: right;
-    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    justify-content: center;
+    padding: 8px;
 }
 
 li a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 14.5px;
 }
 
 li a:hover {
@@ -86,4 +88,13 @@ button {
 button:hover {
     border: 1px solid rgb(198, 198, 198);
     box-shadow: 0.5px 0.5px 1px rgb(220, 222, 226);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(245, 245, 245);
+    color: rgb(95, 91, 104);
 }
